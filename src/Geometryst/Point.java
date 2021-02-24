@@ -5,13 +5,13 @@ public class Point
 {
 	private double _x, _y;
 	
-	Point(Point toCopy)
+	public Point(Point toCopy)
 	{
 		_x = toCopy._x;
 		_y = toCopy._y;
 	}
 	
-	Point(double x, double y)
+	public Point(double x, double y)
 	{
 		_x = x;
 		_y = y;

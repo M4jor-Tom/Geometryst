@@ -4,7 +4,7 @@ public class Triangle
 {
 	private Point _a, _b, _c;
 	
-	Triangle(Point a, Point b, Point c)
+	public Triangle(Point a, Point b, Point c)
 	{
 		_a = a;
 		_b = b;

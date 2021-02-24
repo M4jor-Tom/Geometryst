@@ -5,7 +5,7 @@ public class Circle
 	private Point _center;
 	private double _radius;
 	
-	Circle(Point center, double radius)
+	public Circle(Point center, double radius)
 	{
 		_center = new Point(center);
 		_radius = radius;
