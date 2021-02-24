@@ -4,7 +4,9 @@ public class MainClass
 {
 	public static void main(String[] args)
 	{
-		Point p = new Point(1, 2);
+		Point
+			p = new Point(1, 2),
+			p2 = new Point(1, 4);
 		
 		Circle c = new Circle(p, 3);
 		
@@ -16,7 +18,7 @@ public class MainClass
 		
 		System.out.println(p);
 		
-		System.out.println(c);
+		System.out.println(c + " contains " + p2 + ": " + c.contains(p2));
 		
 		System.out.println(t + " is isoscele: " + t.isoscele());
 	}
