@@ -16,7 +16,7 @@ public class MainClass
 				new Point(0, -2)
 		);
 		
-		System.out.println(p);
+		System.out.println(p + " distance with " + p2 + ": " + p.distance(p2));
 		
 		System.out.println(c + " contains " + p2 + ": " + c.contains(p2));
 		
